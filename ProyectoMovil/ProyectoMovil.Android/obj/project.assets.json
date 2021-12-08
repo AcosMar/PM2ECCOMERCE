@@ -1197,6 +1197,19 @@
           "build/MonoAndroid90/_._": {}
         }
       },
+      "Xamarin.Rating/1.0.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/netstandard2.0/Rating.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Rating.dll": {}
+        }
+      },
       "ProyectoMovil/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1207,7 +1220,8 @@
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
-          "Xamarin.Forms.Maps": "5.0.0.2012"
+          "Xamarin.Forms.Maps": "5.0.0.2012",
+          "Xamarin.Rating": "1.0.0.2"
         },
         "compile": {
           "bin/placeholder/ProyectoMovil.dll": {}
@@ -2715,6 +2729,18 @@
         "xamarin.googleplayservices.tasks.nuspec"
       ]
     },
+    "Xamarin.Rating/1.0.0.2": {
+      "sha512": "udVmz8Y+GeqMHG6zgAlNnvenyWv/PrwKZnw+8dqh9h7t/IeBGm2xtNpjBug+K9vFl+fjFSODwP+Xgut+yILI8Q==",
+      "type": "package",
+      "path": "xamarin.rating/1.0.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Rating.dll",
+        "xamarin.rating.1.0.0.2.nupkg.sha512",
+        "xamarin.rating.nuspec"
+      ]
+    },
     "ProyectoMovil/1.0.0": {
       "type": "project",
       "path": "../ProyectoMovil/ProyectoMovil.csproj",
@@ -2732,39 +2758,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\acost\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/andreaortiz/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Prueba beta\\app_movil2\\ProyectoMovil\\ProyectoMovil.Android\\ProyectoMovil.Android.csproj",
+      "projectUniqueName": "/Users/andreaortiz/Projects/PM2ECCOMERCE/ProyectoMovil/ProyectoMovil.Android/ProyectoMovil.Android.csproj",
       "projectName": "ProyectoMovil.Android",
-      "projectPath": "D:\\Prueba beta\\app_movil2\\ProyectoMovil\\ProyectoMovil.Android\\ProyectoMovil.Android.csproj",
-      "packagesPath": "C:\\Users\\acost\\.nuget\\packages\\",
-      "outputPath": "D:\\Prueba beta\\app_movil2\\ProyectoMovil\\ProyectoMovil.Android\\obj\\",
+      "projectPath": "/Users/andreaortiz/Projects/PM2ECCOMERCE/ProyectoMovil/ProyectoMovil.Android/ProyectoMovil.Android.csproj",
+      "packagesPath": "/Users/andreaortiz/.nuget/packages/",
+      "outputPath": "/Users/andreaortiz/Projects/PM2ECCOMERCE/ProyectoMovil/ProyectoMovil.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\acost\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/andreaortiz/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid11.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "D:\\Prueba beta\\app_movil2\\ProyectoMovil\\ProyectoMovil\\ProyectoMovil.csproj": {
-              "projectPath": "D:\\Prueba beta\\app_movil2\\ProyectoMovil\\ProyectoMovil\\ProyectoMovil.csproj"
+            "/Users/andreaortiz/Projects/PM2ECCOMERCE/ProyectoMovil/ProyectoMovil/ProyectoMovil.csproj": {
+              "projectPath": "/Users/andreaortiz/Projects/PM2ECCOMERCE/ProyectoMovil/ProyectoMovil/ProyectoMovil.csproj"
             }
           }
         }

@@ -1,19 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "j676YVXhCbJ8p39WrdAf6Zyl6xn5GbvpWWvFz57fcRGskTPcnNDUnWP6gQovEXHzaUBSYQM1xoA4kMbRP7j1xg==",
+  "dgSpecHash": "wLUmNkhMzoSBlTko9nyCIdUSvxh46eNwKZBxZAeVS/EKo/tcMmaI4JwyzIbmUFgBf3DiqfVuiT65QJNk2oBPmQ==",
   "success": true,
-  "projectFilePath": "D:\\Prueba beta\\app_movil2\\ProyectoMovil\\ProyectoMovil\\ProyectoMovil.csproj",
+  "projectFilePath": "/Users/andreaortiz/Projects/PM2ECCOMERCE/ProyectoMovil/ProyectoMovil/ProyectoMovil.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\acost\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\acost\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\acost\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\acost\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\acost\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\acost\\.nuget\\packages\\xam.plugin.geolocator\\4.5.0.6\\xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
-    "C:\\Users\\acost\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
-    "C:\\Users\\acost\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2012\\xamarin.forms.maps.5.0.0.2012.nupkg.sha512"
+    "/Users/andreaortiz/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/andreaortiz/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/andreaortiz/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/andreaortiz/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/andreaortiz/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/andreaortiz/.nuget/packages/xam.plugin.geolocator/4.5.0.6/xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
+    "/Users/andreaortiz/.nuget/packages/xam.plugin.media/5.0.1/xam.plugin.media.5.0.1.nupkg.sha512",
+    "/Users/andreaortiz/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/andreaortiz/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "/Users/andreaortiz/.nuget/packages/xamarin.forms.maps/5.0.0.2012/xamarin.forms.maps.5.0.0.2012.nupkg.sha512",
+    "/Users/andreaortiz/.nuget/packages/xamarin.rating/1.0.0.2/xamarin.rating.1.0.0.2.nupkg.sha512"
   ],
   "logs": []
 }

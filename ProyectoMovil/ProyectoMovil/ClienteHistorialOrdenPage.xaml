@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ProyectoMovil.ClienteHistorialOrdenPage"
+    Title="Historial Ordenes">
+    <ContentPage.Content>
+
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <ScrollView>
+                <CollectionView x:Name="listaHistorialOrdenes" SelectionMode="Single" SelectionChanged="listaHistorialOrdenes_SelectionChanged">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <Frame HeightRequest="110" Margin="4" CornerRadius="10" IsClippedToBounds="False" BackgroundColor="#DAECF9" HasShadow="True">
+                                    <StackLayout Orientation="Vertical" MinimumHeightRequest="100">
+                                        <Label Text="{Binding id}" IsVisible="False" />
+                                        <Label Text="{Binding fecha_registro, StringFormat='Fecha de Orden: {0}'}" FontSize="18" TextColor="Black" FontAttributes="Bold"/>
+                                        <Label Text="{Binding id, StringFormat='Número de Factura: {0}'}" FontSize="16" TextColor="Black"/>
+                                        <Label Text="{Binding productos}" TextColor="#0D3CB8" FontAttributes="Bold" FontSize="16" />
+                                        
+                                        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                                            <Label Text="{Binding subtotal, StringFormat='Subtotal: L {0}'}" FontSize="16" Margin="0,1" TextColor="Black"/>
+                                            <Label Text="{Binding isv, StringFormat='ISV: L {0}'}" FontSize="16" Margin="2" TextColor="Black"/>
+                                            <Label Text="{Binding total, StringFormat='Total: L {0}'}" FontSize="16" Margin="2" TextColor="Black"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </ScrollView>
+
+            <StackLayout Margin="10,0,0,10" Orientation="Horizontal" HorizontalOptions="Center">
+                <Button x:Name="btnCalificar" Clicked="btnCalificar_Clicked" WidthRequest="180" HeightRequest="40" CornerRadius="50" FontAttributes="Bold" Text="Calificar Pedido" TextColor="White" BackgroundColor="#E48632"/>
+            </StackLayout>
+        
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

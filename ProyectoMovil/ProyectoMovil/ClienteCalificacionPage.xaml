@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:fRating="clr-namespace:Rating;assembly=Rating"
+    x:Class="ProyectoMovil.ClienteCalificacionPage">
+
+    <StackLayout Margin="10,10,0,10">
+        
+        <Label Text="Calificación de la orden" HorizontalOptions="Center" FontSize="25" TextColor="#0D3CB8" FontAttributes="Bold"></Label>
+
+        <StackLayout Padding="10,10,0,40">
+            <Label x:Name="txtIdOrden" Text="{Binding id}" IsVisible="False" />
+            <Label Text="{Binding fecha_registro, StringFormat='Fecha del pedido: {0}'}" FontSize="18" Margin="0,5,0,15" TextColor="Black" FontAttributes="Bold"/>
+            <Label Text="Productos en la orden:" TextColor="Black" FontAttributes="Bold" FontSize="18" />
+            <Label Text="{Binding productos}" TextColor="#0D3CB8" FontAttributes="Bold" FontSize="18" Margin="0,0,0,15"/>
+            <Label Text="{Binding empleado_orden, StringFormat='Entregado por: {0}'}" FontSize="18" Margin="2" TextColor="Black" FontAttributes="Bold"/>
+        </StackLayout>
+
+        <Label Text="¿Cómo fue su experiencia?" HorizontalOptions="Center" FontSize="22" TextColor="#0D3CB8" FontAttributes="Bold" Margin="0,0,0,15"></Label>
+
+        <fRating:RatingBar x:Name="Calificacion" SelectedStarValue="3" ImageHeight="50" ImageWidth="50" HorizontalOptions="Center"
+         FlowDirection="LeftToRight" EmptyStarImage="estrellawhite" FillStarImage="estrellayellow"/>
+
+        <StackLayout Margin="10,20,0,10" Orientation="Horizontal" HorizontalOptions="Center">
+            <Button x:Name="btnCalificarOrden" Clicked="btnCalificarOrden_Clicked" WidthRequest="180" HeightRequest="40" CornerRadius="50" FontAttributes="Bold" Text="Calificar Orden" TextColor="White" BackgroundColor="#E48632"/>
+        </StackLayout>
+        
+    </StackLayout>
+
+</ContentPage>

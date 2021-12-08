@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ProyectoMovil.EmpleadoOrdenPage">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <ScrollView>
+            <CollectionView x:Name="listaOrdenesEmpleado" SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+                            <SwipeView.RightItems>
+                                <SwipeItems Mode="Reveal">
+                                    <SwipeItem CommandParameter="{Binding .}" Text="Entregada" BackgroundColor="#01BFDD" Invoked="SwipeEntregada_Invoked" />
+                                    <SwipeItem CommandParameter="{Binding .}" Text="Ver Mapa" BackgroundColor="#1FA04A" Invoked="SwipeVerMapa_Invoked" />
+                                    <SwipeItem CommandParameter="{Binding .}" Text="Aceptar" BackgroundColor="#2057C7" Invoked="SwipeAceptar_Invoked" />
+                                </SwipeItems>
+                            </SwipeView.RightItems>
+
+                            <StackLayout>
+                                <Frame HeightRequest="125" Margin="4" CornerRadius="10" IsClippedToBounds="False" BackgroundColor="#DAECF9" HasShadow="True">
+                                    <StackLayout Orientation="Vertical" MinimumHeightRequest="100">
+                                        <Label Text="{Binding fecha_registro, StringFormat='Fecha de Orden: {0}'}" FontSize="18" TextColor="Black" FontAttributes="Bold"/>
+                                        <Label Text="{Binding id, StringFormat='Número de Factura: {0}'}" FontSize="16" TextColor="Black"/>
+                                        <Label Text="{Binding cliente, StringFormat='Cliente: {0}'}" FontSize="16" TextColor="Black"/>
+                                        <Label Text="{Binding telefono, StringFormat='Teléfono: {0}'}" FontSize="16" TextColor="Black"/>
+                                        <Label Text="{Binding estado, StringFormat='Estado: {0}'}" TextColor="#0D3CB8" FontAttributes="Bold" FontSize="16" />
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+        
+    </StackLayout>
+</ContentPage>

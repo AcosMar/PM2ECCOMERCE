@@ -18,6 +18,7 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
     <PackageReference Include="Xam.Plugin.Geolocator" Version="4.5.0.6" />
     <PackageReference Include="Xamarin.Forms.Maps" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Rating" Version="1.0.0.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -54,6 +55,7 @@
     <None Remove="Controller\" />
     <None Remove="Xam.Plugin.Geolocator" />
     <None Remove="Xamarin.Forms.Maps" />
+    <None Remove="Xamarin.Rating" />
   </ItemGroup>
   <ItemGroup>
     <None Update="MyFlyoutPage.xaml">

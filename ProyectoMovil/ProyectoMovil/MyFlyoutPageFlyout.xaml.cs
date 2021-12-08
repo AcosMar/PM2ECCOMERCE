@@ -36,7 +36,7 @@ namespace ProyectoMovil
                     new MyFlyoutPageFlyoutMenuItem { Id = 0, Title = "Inicio/Home", TargetType=typeof(Home)},
                     new MyFlyoutPageFlyoutMenuItem { Id = 1, Title = "Productos", TargetType=typeof(ProductsPage)},
                     new MyFlyoutPageFlyoutMenuItem { Id = 2, Title = "Carrito", TargetType=typeof(ListaCarritoPage)},
-                    new MyFlyoutPageFlyoutMenuItem { Id = 3, Title = "Page 4", TargetType=typeof(Home)},
+                    new MyFlyoutPageFlyoutMenuItem { Id = 3, Title = "Ordenes", TargetType=typeof(ClienteOrdenPage)},
                     new MyFlyoutPageFlyoutMenuItem { Id = 4, Title = "Page 5", TargetType=typeof(Home)}
                 });
             }
