@@ -1,6 +1,10 @@
 ﻿<Properties StartupConfiguration="{237E31C9-8C7C-4900-870F-A7D8FDC5BDCA}|Default">
   <MonoDevelop.Ide.ItemProperties.ProyectoMovil.Android AndroidDesignerPreferredTheme="MainTheme" PreferredExecutionTarget="Android.Pixel_XL_API_24" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoMovil/ProyectoMovil/ClienteOrdenActivaPage.xaml">
+    <Files>
+      <File FileName="ProyectoMovil/ProyectoMovil/EmpleadoOrdenPage.xaml.cs" Line="189" Column="10" />
+      <File FileName="ProyectoMovil/ProyectoMovil/ClienteOrdenActivaPage.xaml" Line="35" Column="42" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -10,12 +14,11 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Controller" expanded="True" />
-              <Node name="Modelos" expanded="True" />
               <Node name="ClienteCalificacionPage.xaml" expanded="True" />
+              <Node name="ClienteOrdenActivaPage.xaml" expanded="True" selected="True" />
+              <Node name="ClienteOrdenPage.xaml" expanded="True" />
               <Node name="EmpleadoOrdenPage.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
               <Node name="MyFlyoutPageFlyout.xaml" expanded="True" />
             </Node>
             <Node name="ProyectoMovil.Android" expanded="True">

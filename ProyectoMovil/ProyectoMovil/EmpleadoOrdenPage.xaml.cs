@@ -33,7 +33,7 @@ namespace ProyectoMovil
             {
                 using (HttpClient cliente = new HttpClient())
                 {
-                    object obj = new { usuario = "acosta" };
+                    object obj = new { usuario = usuario };
 
                     String jsonContent = JsonConvert.SerializeObject(obj);
                     StringContent contenido = new StringContent(jsonContent, System.Text.Encoding.UTF8, "application/json");
@@ -77,37 +77,45 @@ namespace ProyectoMovil
         {
             var s = sender.CommandParameter as Modelos.OrdenEmpleado;
 
-            object orden = new { ID = s.id, estado = 2, longitud = s.longitud, latitud = s.latitud };
-
-            if (Connectivity.NetworkAccess == NetworkAccess.Internet)
+            if (s.estado == "Proceso")
             {
-                Uri RequestUri = new Uri(Configuraciones.EndPointOrden);
-                var client = new HttpClient();
-                var json = JsonConvert.SerializeObject(orden);
-
-                HttpRequestMessage request = new HttpRequestMessage
-                {
-                    Content = new StringContent(json, Encoding.UTF8, "application/json"),
-                    Method = HttpMethod.Delete,
-                    RequestUri = RequestUri
-                };
-
-                HttpResponseMessage response = await client.SendAsync(request);
-                String respuesta = response.Content.ReadAsStringAsync().Result;
-
-                if (response.IsSuccessStatusCode)
-                {
-                    await DisplayAlert("Notificación", "Orden Aceptada para entrega", "OK");
-                    EmpleadoListaOrdenes();
-                }
-                else
-                {
-                    await DisplayAlert("Alerta", "Ha ocurrido un error", "OK");
-                }
+                await DisplayAlert("Notificación", "Esta orden ya fue aceptada.", "OK");
             }
             else
             {
-                await DisplayAlert("Error", "Verifique su conexión de Internet", "OK");
+
+                object orden = new { ID = s.id, estado = 2, longitud = s.longitud, latitud = s.latitud };
+
+                if (Connectivity.NetworkAccess == NetworkAccess.Internet)
+                {
+                    Uri RequestUri = new Uri(Configuraciones.EndPointOrden);
+                    var client = new HttpClient();
+                    var json = JsonConvert.SerializeObject(orden);
+
+                    HttpRequestMessage request = new HttpRequestMessage
+                    {
+                        Content = new StringContent(json, Encoding.UTF8, "application/json"),
+                        Method = HttpMethod.Delete,
+                        RequestUri = RequestUri
+                    };
+
+                    HttpResponseMessage response = await client.SendAsync(request);
+                    String respuesta = response.Content.ReadAsStringAsync().Result;
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        await DisplayAlert("Notificación", "Orden Aceptada para entrega", "OK");
+                        EmpleadoListaOrdenes();
+                    }
+                    else
+                    {
+                        await DisplayAlert("Alerta", "Ha ocurrido un error", "OK");
+                    }
+                }
+                else
+                {
+                    await DisplayAlert("Error", "Verifique su conexión de Internet", "OK");
+                }
             }
         }
 
@@ -137,40 +145,47 @@ namespace ProyectoMovil
         private async void SwipeEntregada_Invoked(SwipeItem sender, System.EventArgs e)
         {
             var s = sender.CommandParameter as Modelos.OrdenEmpleado;
-            object orden = new { ID = s.id, estado = 3, longitud = s.longitud, latitud = s.latitud };
 
-            if (Connectivity.NetworkAccess == NetworkAccess.Internet)
+            if (s.estado == "Activo")
             {
-                Uri RequestUri = new Uri(Configuraciones.EndPointOrden);
-                var client = new HttpClient();
-                var json = JsonConvert.SerializeObject(orden);
-
-                HttpRequestMessage request = new HttpRequestMessage
-                {
-                    Content = new StringContent(json, Encoding.UTF8, "application/json"),
-                    Method = HttpMethod.Delete,
-                    RequestUri = RequestUri
-                };
-
-                HttpResponseMessage response = await client.SendAsync(request);
-
-                String respuesta = response.Content.ReadAsStringAsync().Result;
-
-                if (response.IsSuccessStatusCode)
-                {
-                    await DisplayAlert("Notificación", "Su orden ha sido entregada", "OK");
-                    EmpleadoListaOrdenes();
-                }
-                else
-                {
-                    await DisplayAlert("Alerta", "Ha ocurrido un error", "OK");
-                }
+                await DisplayAlert("Notificación", "Debe aceptar primero esta orden.", "OK");
             }
             else
             {
-                await DisplayAlert("Error", "Verifique su conexión de Internet", "OK");
+                object orden = new { ID = s.id, estado = 3, longitud = s.longitud, latitud = s.latitud };
+
+                if (Connectivity.NetworkAccess == NetworkAccess.Internet)
+                {
+                    Uri RequestUri = new Uri(Configuraciones.EndPointOrden);
+                    var client = new HttpClient();
+                    var json = JsonConvert.SerializeObject(orden);
+
+                    HttpRequestMessage request = new HttpRequestMessage
+                    {
+                        Content = new StringContent(json, Encoding.UTF8, "application/json"),
+                        Method = HttpMethod.Delete,
+                        RequestUri = RequestUri
+                    };
+
+                    HttpResponseMessage response = await client.SendAsync(request);
+
+                    String respuesta = response.Content.ReadAsStringAsync().Result;
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        await DisplayAlert("Notificación", "Su orden ha sido entregada", "OK");
+                        EmpleadoListaOrdenes();
+                    }
+                    else
+                    {
+                        await DisplayAlert("Alerta", "Ha ocurrido un error", "OK");
+                    }
+                }
+                else
+                {
+                    await DisplayAlert("Error", "Verifique su conexión de Internet", "OK");
+                }
             }
         }
-
     }
 }

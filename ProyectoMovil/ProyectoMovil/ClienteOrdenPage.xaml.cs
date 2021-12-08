@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace ProyectoMovil
 {
-    public partial class ClienteOrdenPage : ContentPage
+    public partial class ClienteOrdenPage : TabbedPage
     {
         public ClienteOrdenPage()
         {

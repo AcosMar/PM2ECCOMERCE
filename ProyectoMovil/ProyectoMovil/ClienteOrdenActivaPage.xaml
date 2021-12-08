@@ -31,9 +31,9 @@
                 </CollectionView>
             </ScrollView>
 
-            <StackLayout Margin="10,0,0,10" Orientation="Horizontal" HorizontalOptions="Center">
-                <Button x:Name="btnComprarTarjeta" WidthRequest="180" HeightRequest="40" CornerRadius="50" FontAttributes="Bold" Text="Ver en Mapa" TextColor="White" BackgroundColor="#0A9B7F"/>
-            </StackLayout>
+            <!--<StackLayout Margin="10,0,0,10" Orientation="Horizontal" HorizontalOptions="Center">
+                <Button x:Name="btnVerMapa" WidthRequest="180" HeightRequest="40" CornerRadius="50" FontAttributes="Bold" Text="Ver en Mapa" TextColor="White" BackgroundColor="#0A9B7F"/>
+            </StackLayout>-->
         
         </StackLayout>
     </ContentPage.Content>
