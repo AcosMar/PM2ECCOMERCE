@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMovil.RegistrarUsuario">
+
+
+
+
+    <ContentPage.ToolbarItems >
+        <!-- Boton de regresar -->
+        <!--Boton Salvar/Guaradar-->
+        <ToolbarItem
+                Priority="1"
+                Order="Primary"
+                x:Name="btnSave"
+                Text="Guardar"
+                Clicked="btnSave_Clicked"
+                
+            />
+
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <StackLayout>
+
+            <!--Logo de Proyecto-->
+
+            <Image 
+                    Margin="20,0,10,0"
+                   Source="https://uth.hn/igfhonduras/wp-content/uploads/2019/11/logouth.png"/>
+
+
+            <!--Recuadro de Foto-->
+
+            <StackLayout  Margin="50,0,50,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="150"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Image x:Name="fotografia" BackgroundColor="LightSlateGray"/>
+                </Grid>
+            </StackLayout>
+
+            <!--Botones de Foto (Tomar o Buscar)-->
+            <StackLayout Margin="90,10,20,10"
+                            Orientation="Horizontal">
+
+                <Button x:Name="btnTomarFoto"
+                    HeightRequest="50"
+                    CornerRadius="20"
+                    BackgroundColor="BurlyWood"
+                    Text="Tomar Foto"
+                    FontSize="15"
+                    Clicked="btnTomarFoto_Clicked"
+                    
+                    />
+
+                <Button  x:Name="btnBuscarFoto"
+                    HeightRequest="50"
+                    CornerRadius="20"
+                    BackgroundColor="BurlyWood"
+                    Text="Buscar Foto" 
+                    FontSize="15"
+                    Clicked="btnBuscarFoto_Clicked"
+                    />
+                <!--Captura a Base 64-->
+                <Label x:Name="pathFoto" FontSize="1"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Spacing="10">
+
+                <!--Ingresa Nombre-->
+                <Label  Margin="10,10,0,0"
+                    FontSize="16"
+                    TextColor="Black"
+                    FontAttributes="Bold,Italic"
+                    Text="Nombre: "/>
+
+                <Entry x:Name="txtNombre"
+                   Margin="-10,0,0,-10"
+                   WidthRequest="132" 
+                   HeightRequest="1"
+                   FontSize="14"
+                   />
+
+                <!--Ingresa Apellido-->
+                <Label  Margin="0,10,0,0"
+                    FontSize="16"                    
+                    FontAttributes="Bold,Italic"
+                    TextColor="Black"
+                    Text="Apellido: "/>
+
+                <Entry x:Name="txtApellido"
+                   Margin="-10,0,0,-10"
+                   WidthRequest="132" 
+                   HeightRequest="1"
+                   FontSize="14"
+                   />
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,5">
+
+
+                <!--Ingresa DNI-->
+                <Label  Margin="10,15,-10,0"
+                    FontSize="16"
+                    TextColor="Black"
+                    FontAttributes="Bold,Italic"
+                    Text="DNI: "/>
+
+                <Entry x:Name="txtDNI"
+                   Margin="19,-10"
+                   WidthRequest="140" 
+                   HeightRequest="1"
+                   FontSize="14"
+                   Keyboard="Numeric"
+                       
+                   />
+
+
+                <!--Ingresa telefono-->
+                <Label  Margin="0,5,-10,0"
+                    FontSize="16"                    
+                    FontAttributes="Bold,Italic"
+                    TextColor="Black"
+                    Text="Celular: "/>
+
+                <Entry x:Name="txtCelular"
+                   Margin="-1,0"
+                   WidthRequest="120" 
+                   HeightRequest="1"
+                   FontSize="14"
+                   Keyboard="Telephone"
+                   />
+
+
+            </StackLayout>
+
+            <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+
+                <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,5">
+
+                    <!--Ingresa Correo-->
+                    <Label  Margin="10,10,0,0"
+                    FontSize="16"
+                    TextColor="Black"
+                    FontAttributes="Bold,Italic"
+                    Text="Correo: "/>
+
+                    <Entry x:Name="txtCorreo"
+                   Margin="-10,0,0,-10"
+                   WidthRequest="343" 
+                   HeightRequest="1"
+                   FontSize="14"
+                   Keyboard="Email"
+                   />
+
+                </StackLayout>
+
+            </Frame>
+
+            <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,10">
+
+                <!--Ingresa Password-->
+                <Label  Margin="10,10,0,0"
+                    FontSize="16"
+                    TextColor="Black"
+                    FontAttributes="Bold,Italic"
+                    Text="PassWord: "/>
+
+                <Entry x:Name="txtPass"
+                   Margin="-10,0,0,-10"
+                   WidthRequest="132" 
+                   HeightRequest="1"
+                   FontSize="14"
+                   IsPassword="True"
+                   />
+
+                <!--Ingresa Genero-->
+
+                <RadioButton Content="Hombre"   Margin="0,1" FontSize="16" Value="1" FontAttributes="Bold,Italic" CheckedChanged="RadioButton_CheckedChanged" />
+                <RadioButton Content="Mujer" FontSize="16" Value="2" FontAttributes="Bold,Italic" CheckedChanged="RadioButton_CheckedChanged"/>
+                <Label x:Name="label" FontSize="1"/>
+
+            </StackLayout>
+
+
+            <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,10">
+                <!--Direccion-->
+                <Label  Margin="10,10,0,10"
+                    FontSize="16"
+                    TextColor="Black"
+                    FontAttributes="Bold,Italic"
+                    Text="Direccion: "/>
+
+                <Editor x:Name="txtDireccion"
+                   
+                   WidthRequest="310" 
+                   HeightRequest="1"
+                   FontSize="14"                   
+                   />
+
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

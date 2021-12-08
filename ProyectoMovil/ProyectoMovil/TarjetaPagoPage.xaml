@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ProyectoMovil.TarjetaPagoPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20,0,20,0">
+                <Label HorizontalTextAlignment="Center" FontSize="25" Text="Método de Pago"/>
+                <Image Source="tarjetacredito.jpg" WidthRequest="150" HeightRequest="150"/>
+
+                <Label Text="Número de Tarjeta:" FontAttributes="Bold" FontSize="17"></Label>
+                <Entry x:Name="txtTarjeta" Keyboard="Numeric"></Entry>
+
+                <Label Text="Nombre:" FontAttributes="Bold" FontSize="17"></Label>
+                <Entry x:Name="txtNombre"></Entry>
+
+                <Label Text="Fecha de Expiración:" FontAttributes="Bold" FontSize="17"></Label>
+                <Entry x:Name="txtExpiracion"></Entry>
+
+                <Label Text="Código CVV:" FontAttributes="Bold" FontSize="17"></Label>
+                <Entry x:Name="txtCCV" Keyboard="Numeric"/>
+
+                <Label x:Name="txtlatitud" IsVisible="False"></Label>
+                <Label x:Name="txtlongitud" IsVisible="False"></Label>
+                <Button x:Name="btnPagarTarjetaCredito" Text="Confirmar Pago" Clicked="btnPagarTarjetaCredito_Clicked" CornerRadius="50" FontAttributes="Bold" TextColor="White" FontSize="15" BackgroundColor="#158540"></Button>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

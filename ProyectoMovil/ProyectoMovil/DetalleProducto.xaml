@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMovil.DetalleProducto">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="{Binding imagen}"/>
+            <!--, StringFormat='ID: {0}'-->
+
+            <StackLayout Padding="20,0,0,0">
+                <Label Text="{Binding cantidad}" x:Name="txtCantInventario" IsVisible="false"></Label>
+                <Label Text="{Binding id}" x:Name="txtIdProducto" IsVisible="false"></Label>
+                <Label Text="{Binding nombre, StringFormat='Nombre del Producto: {0}'}" FontSize="20" Margin="2" TextColor="Black"></Label>
+                <Label Text="{Binding descripcion, StringFormat='Descripción: {0}'}" FontSize="20" Margin="2" TextColor="Black"></Label>
+                <Label Text="{Binding cantidad, StringFormat='Cantidad: {0}'}" FontSize="20" Margin="2" TextColor="Black"></Label>
+                <Label Text="{Binding precio, StringFormat='Precio: {0}'}" FontSize="20" Margin="2" TextColor="Black"></Label>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Spacing="20" Padding="20,0,0,0">
+                <Button x:Name="btnDisminuirCant" Clicked="btnDisminuirCant_Clicked" HorizontalOptions="Start" Text="-" FontSize="23"
+                        WidthRequest="44" HeightRequest="44" VerticalOptions="Center" CornerRadius="80" TextColor="White" FontAttributes="Bold" BackgroundColor="#1462A3"/>
+                    
+                <Label x:Name="txtCantidad" Text="1" TextColor="Black" FontSize="23" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                <Button x:Name="btnAumentarCant" Clicked="btnAumentarCant_Clicked" HorizontalOptions="Center" Text="+" FontSize="23"
+                WidthRequest="44" HeightRequest="44" VerticalOptions="Center" CornerRadius="80" TextColor="White" FontAttributes="Bold" BackgroundColor="#1462A3"/>
+
+                <Button x:Name="btnAgregarCarrito" Clicked="btnAgregarCarrito_Clicked" WidthRequest="195" HeightRequest="46" CornerRadius="32" HorizontalOptions="End" Text="Agregar a Carrito" TextColor="White" FontSize="16" FontAttributes="Bold" BackgroundColor="#1462A3"/>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

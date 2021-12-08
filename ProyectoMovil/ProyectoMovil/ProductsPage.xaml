@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ProyectoMovil.ProductsPage">
+    <ContentPage.Content>
+        <!--<StackLayout>
+            <Image x:Name="ImagenPath"></Image>
+
+            <ListView x:Name="listaProductos" HorizontalOptions="FillAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        
+                        <ImageCell ImageSource="{Binding Image}" Text="{Binding Text}"/>
+                        <Image Source="{Binding imagen}" WidthRequest="70" HeightRequest="70"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+        </StackLayout>-->
+        <StackLayout HorizontalOptions="Center" VerticalOptions="FillAndExpand" Padding="10">
+            <SearchBar x:Name="searchBar" Placeholder="Buscar..."
+           CancelButtonColor="OrangeRed"
+           PlaceholderColor="OrangeRed"
+           TextColor="OrangeRed"
+           HorizontalTextAlignment="Center"
+           FontSize="Medium"
+           FontAttributes="Italic" 
+           TextChanged="SearchBar_TextChanged"/>
+            
+            <ListView x:Name="lsProductos" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"
+                SeparatorColor="LightGray" SeparatorVisibility="Default" HasUnevenRows="True"
+                ItemSelected="lsProductos_ItemSelected">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <ViewCell>
+                                            <StackLayout Orientation="Horizontal" Padding="5" VerticalOptions="FillAndExpand"
+                MinimumHeightRequest="100">
+
+                                <Image Source="{Binding imagen}" WidthRequest="70" HeightRequest="70"/>
+                                <StackLayout Orientation="Vertical" Padding="2" VerticalOptions="Center">
+                                    <Label Text="{Binding nombre_producto}" FontSize="20" Margin="2" TextColor="Black" FontAttributes="Bold"/>
+                                    <Label Text="{Binding precio}" FontSize="16" Margin="2" TextColor="#eb3443"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

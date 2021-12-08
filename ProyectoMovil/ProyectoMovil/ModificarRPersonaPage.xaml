@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             mc:Ignorable="d"
+             x:Class="ProyectoMovil.ModificarRPersonaPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+                Priority="0"
+                Order="Primary"
+                x:Name="BtnSingin"
+                Text="Sing In"
+               Clicked="BtnSingin_Clicked"
+           
+            />
+
+    </ContentPage.ToolbarItems>
+
+    <StackLayout BackgroundColor="#e6e6e6">
+        <Grid>
+            <StackLayout Padding="0" Margin="0" HorizontalOptions="FillAndExpand">
+                <Frame HeightRequest="200" BackgroundColor="AntiqueWhite" Padding="0" Margin="0">
+                    <Image Source="https://www.mercadotecniatotal.com/wp-content/uploads/2019/04/plan-estrategico-para-ecommerce.jpg" Aspect="AspectFill" Margin="0"/>
+                </Frame>
+            </StackLayout>
+            <StackLayout Padding="0" Margin="10,100,10,0" HorizontalOptions="FillAndExpand">
+                <Frame  BackgroundColor="White" HeightRequest="1000" HasShadow="True" Padding="0" Margin="0">
+
+                    <StackLayout>
+
+
+                        <StackLayout Margin="10">
+                            <Label Text="   VER DATOS DEL CLIENTE" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
+                        </StackLayout>
+
+                        <StackLayout Padding="0" Margin="20,0">
+
+                            <Entry x:Name="idSitio" Text="{Binding ID}" IsVisible="false"></Entry>
+
+                            <Label Text="Nombre:" TextColor="Black" FontAttributes="Italic"></Label>
+                            <Frame BackgroundColor="Transparent"  Margin="0,-5,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label  x:Name="txtnomb" Text="{Binding nombres}" TextColor="DeepSkyBlue" FontAttributes="Italic" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"></Label>
+                                </StackLayout>
+                            </Frame>
+
+                            <Label Text="Apellido:" TextColor="Black" FontAttributes="Italic"></Label>
+                            <Frame BackgroundColor="Transparent"  Margin="0,-5,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label  x:Name="txtapellido" Text="{Binding apellidos}" TextColor="DeepSkyBlue" FontAttributes="Italic" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"></Label>
+                                </StackLayout>
+                            </Frame>
+
+                            <Label Text="Email-:" TextColor="Black" FontAttributes="Italic"></Label>
+                            <Frame BackgroundColor="Transparent"  Margin="0,-5,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label x:Name="txtcorreo" Text="{Binding email}" TextColor="DeepSkyBlue" FontAttributes="Italic" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"></Label>
+                                </StackLayout>
+                            </Frame>
+
+                            <Label Text="Direccion:" TextColor="Black" FontAttributes="Italic" ></Label>
+                            <Frame BackgroundColor="Transparent"  Margin="0,-5,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label x:Name="txtdireccion" Text="{Binding direccion}" TextColor="DeepSkyBlue" FontAttributes="Italic" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"></Label>
+                                </StackLayout>
+                            </Frame>
+
+                            <Label Text="Telefono:" TextColor="Black" FontAttributes="Italic" ></Label>
+                            <Frame BackgroundColor="Transparent"  Margin="0,-5,0,0" Padding="0" HorizontalOptions="FillAndExpand" >
+                                <StackLayout Orientation="Horizontal">
+                                    <Label x:Name="txttelefono" Text="{Binding telefono }" TextColor="DeepSkyBlue" FontAttributes="Italic" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"></Label>
+                                </StackLayout>
+                            </Frame>
+
+
+                            <StackLayout Margin="-20,10,0,0" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                <Button x:Name="BtnModificarDatos" Text="Modificar Datos" BackgroundColor="DeepSkyBlue" TextColor="White" CornerRadius="30" Clicked="BtnModificarDatos_Clicked"  HeightRequest="50"/>
+                                <Button x:Name="BtnCambiarContra" Text="Mod.. Contraseña" Clicked="BtnCambiarContra_Clicked" HeightRequest="50"
+                                    BackgroundColor="DeepSkyBlue" TextColor="White" CornerRadius="30" />
+
+                            </StackLayout>
+                        </StackLayout>
+
+
+                    </StackLayout>
+
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

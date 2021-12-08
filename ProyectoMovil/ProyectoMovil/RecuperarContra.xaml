@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMovil.RecuperarContra">
+
+    <StackLayout BackgroundColor="#e6e6e6">
+        <Grid>
+            <StackLayout Padding="0" Margin="0" HorizontalOptions="FillAndExpand">
+                <Frame HeightRequest="150" BackgroundColor="AntiqueWhite" Padding="0" Margin="0">
+                    <Image Source="https://www.mercadotecniatotal.com/wp-content/uploads/2019/04/plan-estrategico-para-ecommerce.jpg" Aspect="AspectFill" Margin="0"/>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Padding="0" Margin="10,100,10,0" HorizontalOptions="FillAndExpand">
+                <Frame  BackgroundColor="White" HeightRequest="500" HasShadow="True" Padding="0" Margin="0">
+
+                    <StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label Text="Recuperar Contraseña" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
+                        </StackLayout>
+
+                        <StackLayout Padding="0" Margin="15,10">
+
+                            <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                        <Image Source="https://img2.freepng.es/20180514/gre/kisspng-computer-icons-avatar-user-profile-clip-art-5af95fab3b2d13.0220186015262923952424.jpg" Aspect="AspectFill" Margin="0"/>
+                                    </Frame>
+
+                                    <Entry Placeholder="Correo" x:Name="txtCorreo" TextColor="Black" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0" />
+                                    
+
+                                </StackLayout>
+                                                                
+                            </Frame>
+                            <Frame>
+                                <StackLayout>
+                                    <Label  x:Name="url" FontSize="1" IsVisible="False"/>
+                                    <Button IsVisible="False" x:Name="BtnLINK" Text="LINK " BackgroundColor="DeepSkyBlue" TextColor="White" CornerRadius="30" Clicked="BtnLINK_Clicked"  HeightRequest="50"/>
+                                </StackLayout>
+                            </Frame>
+                            
+
+                            <Frame>
+                                <StackLayout>
+                                    <Button  x:Name="BtnRecuperar" Text="Recuperar Contraseña" BackgroundColor="DeepSkyBlue" TextColor="White" CornerRadius="30" Clicked="BtnRecuperar_Clicked"  HeightRequest="50"/>
+                                </StackLayout>
+                            </Frame>
+                            
+                            
+                        </StackLayout>
+
+
+                    </StackLayout>
+
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+</ContentPage>

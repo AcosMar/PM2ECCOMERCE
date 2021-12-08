@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{237E31C9-8C7C-4900-870F-A7D8FDC5BDCA}|Default">
+  <MonoDevelop.Ide.ItemProperties.ProyectoMovil.Android AndroidDesignerPreferredTheme="MainTheme" PreferredExecutionTarget="Android.Pixel_XL_API_24" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoMovil/ProyectoMovil/ListaCarritoPage.xaml">
+    <Files>
+      <File FileName="ProyectoMovil/ProyectoMovil/ListaCarritoPage.xaml" Line="10" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProyectoMovil" expanded="True">
+            <Node name="ProyectoMovil" expanded="True">
+              <Node name="DetalleProducto.xaml" expanded="True" />
+              <Node name="Home.xaml" expanded="True" />
+              <Node name="ListaCarritoPage.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="MyFlyoutPage.xaml" expanded="True" />
+              <Node name="ProductsPage.xaml" expanded="True" />
+              <Node name="TarjetaPagoPage.xaml" expanded="True" />
+            </Node>
+            <Node name="ProyectoMovil.Android" expanded="True">
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../PM2Media/PM2Media/Views/ProductsPage.xaml.cs" line="18" column="20" endLine="18" endColumn="103" offsetX="-1" offsetY="-1" expression="respuesta.Headers" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

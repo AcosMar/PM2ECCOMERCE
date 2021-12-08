@@ -1,0 +1,95 @@
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/bin/Debug/netstandard2.0/ProyectoMovil.deps.json
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/bin/Debug/netstandard2.0/ProyectoMovil.dll
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/bin/Debug/netstandard2.0/ref/ProyectoMovil.dll
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/bin/Debug/netstandard2.0/ProyectoMovil.pdb
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.csproj.AssemblyReference.cache
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.GeneratedMSBuildEditorConfig.editorconfig
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/App.xaml.g.cs
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/Home.xaml.g.cs
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.AssemblyInfoInputs.cache
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.AssemblyInfo.cs
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.csproj.CoreCompileInputs.cache
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/XamlC.stamp
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.dll
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ref/ProyectoMovil.dll
+D:/Movil II/ProyectoMovil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.pdb
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/bin/Debug/netstandard2.0/ProyectoMovil.deps.json
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/bin/Debug/netstandard2.0/ProyectoMovil.dll
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/bin/Debug/netstandard2.0/ref/ProyectoMovil.dll
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/bin/Debug/netstandard2.0/ProyectoMovil.pdb
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.csproj.AssemblyReference.cache
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/Home.xaml.g.cs
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/MyFlyoutPage.xaml.g.cs
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/MyFlyoutPageDetail.xaml.g.cs
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/MyFlyoutPageFlyout.xaml.g.cs
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProductsPage.xaml.g.cs
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.AssemblyInfoInputs.cache
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.AssemblyInfo.cs
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.csproj.CoreCompileInputs.cache
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.dll
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ref/ProyectoMovil.dll
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.pdb
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/bin/Debug/netstandard2.0/ProyectoMovil.deps.json
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/bin/Debug/netstandard2.0/ProyectoMovil.dll
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/bin/Debug/netstandard2.0/ref/ProyectoMovil.dll
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/bin/Debug/netstandard2.0/ProyectoMovil.pdb
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.csproj.AssemblyReference.cache
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/DetalleProducto.xaml.g.cs
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/Home.xaml.g.cs
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ListaPersonaPage.xaml.g.cs
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ModificarRPersonaPage.xaml.g.cs
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/MyFlyoutPage.xaml.g.cs
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/MyFlyoutPageDetail.xaml.g.cs
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/MyFlyoutPageFlyout.xaml.g.cs
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProductsPage.xaml.g.cs
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/RPersonaPage.xaml.g.cs
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.AssemblyInfoInputs.cache
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.AssemblyInfo.cs
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.csproj.CoreCompileInputs.cache
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/XamlC.stamp
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.dll
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ref/ProyectoMovil.dll
+C:/Users/Yeltsin/source/repos/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ProyectoMovil.pdb
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/DetalleProducto.xaml.g.cs
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ListaPersonaPage.xaml.g.cs
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ModificarRPersonaPage.xaml.g.cs
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/RPersonaPage.xaml.g.cs
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/ListaCarritoPage.xaml.g.cs
+/Users/andreaortiz/Projects/proyecto_movil/ProyectoMovil/ProyectoMovil/obj/Debug/netstandard2.0/TarjetaPagoPage.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\bin\Debug\netstandard2.0\ProyectoMovil.deps.json
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\bin\Debug\netstandard2.0\ProyectoMovil.dll
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\bin\Debug\netstandard2.0\ref\ProyectoMovil.dll
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\bin\Debug\netstandard2.0\ProyectoMovil.pdb
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\ProyectoMovil.csproj.AssemblyReference.cache
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\ProyectoMovil.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\DetalleProducto.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\Home.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\ListaCarritoPage.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\ListaPersonaPage.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\ModificarRPersonaPage.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\MyFlyoutPage.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\MyFlyoutPageDetail.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\MyFlyoutPageFlyout.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\ProductsPage.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\TarjetaPagoPage.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\ProyectoMovil.AssemblyInfoInputs.cache
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\ProyectoMovil.AssemblyInfo.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\ProyectoMovil.csproj.CoreCompileInputs.cache
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\ProyectoMovil.dll
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\ref\ProyectoMovil.dll
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\ProyectoMovil.pdb
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\ModificarContra.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\ModificarUsuario.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\RegistrarUsuario.xaml.g.cs
+D:\Prueba beta\app_movil2\ProyectoMovil\ProyectoMovil\obj\Debug\netstandard2.0\RecuperarContra.xaml.g.cs
